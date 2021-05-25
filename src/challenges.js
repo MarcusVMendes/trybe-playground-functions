@@ -29,14 +29,35 @@ function footballPoints(wins, ties) {
   let empate = ties * 1
   let pontos = vitoria + empate
     return pontos;
-
-
 }
 
 // Desafio 6
-function highestCount() {
-  // seu código aqui
+function highestCount(array) {
+  let highNumber = Math.max.apply(null, array) //panta
+  let count = 0;
+  for(index = 0; index < array.length; index += 1) {
+    if (array[index] === highNumber) {
+      count += 1
+    }
+  }
+  return count
 }
+
+
+highestCount([2,5,8,9,10])
+
+  //   for(let index = 0; index < array.length; index += 1) {
+//     if (array[index] > highNumber) {
+//       highNumber = array[index]
+//     } for (index2 in array) {
+//       if (array[index2] = highNumber) {
+//         count += 1
+//       }
+//     }
+//     return count 
+//   }
+// }
+// Math.max.apply bruna vottri
 
 // Desafio 7
 function catAndMouse() {
