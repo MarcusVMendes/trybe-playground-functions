@@ -47,8 +47,6 @@ cd trybe-playground-functions
 npm install
 ```
 <br>
-    4. Recomenda-se o uso da extensão <b>Live Server</b> para executar o projeto no browser. 
-<br><br>
 
 
 # Sumário
